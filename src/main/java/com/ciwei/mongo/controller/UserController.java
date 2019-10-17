@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.HttpStatus;
 
 /**
- * @author 如果没有你
+ * 如果没有你
  */
 @RestController
 @RequestMapping("/api/user")
