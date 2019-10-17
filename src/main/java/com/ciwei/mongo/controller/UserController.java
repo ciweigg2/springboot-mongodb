@@ -32,7 +32,7 @@ import org.springframework.http.HttpStatus;
 public class UserController {
 
     @Autowired
-    private UserRepository userRepository;ASD
+    private UserRepository userRepository;
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
