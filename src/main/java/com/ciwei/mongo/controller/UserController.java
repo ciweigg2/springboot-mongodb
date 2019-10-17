@@ -24,6 +24,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.HttpStatus;
 
+/**
+ * 如果没有你
+ */
 @RestController
 @RequestMapping("/api/user")
 public class UserController {
