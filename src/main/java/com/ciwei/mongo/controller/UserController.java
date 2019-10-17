@@ -25,7 +25,15 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.HttpStatus;
 
 @RestController
+<<<<<<< dev
 @RequestMapping("/api/user")
+=======
+<<<<<<< HEAD
+@RequestMapping("/api/user")
+=======
+@RequestMapping("/v1/user")
+>>>>>>> 4097b2d... first commit
+>>>>>>> 还原最初代码
 public class UserController {
 
    @Autowired
