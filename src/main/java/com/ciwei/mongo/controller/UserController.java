@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.HttpStatus;
 
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping("/v1/user")
 public class UserController {
 
    @Autowired
