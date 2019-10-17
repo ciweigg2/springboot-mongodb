@@ -26,6 +26,7 @@ import org.springframework.http.HttpStatus;
 
 @RestController
 <<<<<<< dev
+<<<<<<< dev
 @RequestMapping("/api/user")
 =======
 <<<<<<< HEAD
@@ -34,6 +35,9 @@ import org.springframework.http.HttpStatus;
 @RequestMapping("/v1/user")
 >>>>>>> 4097b2d... first commit
 >>>>>>> 还原最初代码
+=======
+@RequestMapping("/v1/user")
+>>>>>>> test
 public class UserController {
 
    @Autowired
